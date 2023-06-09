@@ -1,0 +1,9 @@
+Bio==1.5.9
+biopython==1.81
+matplotlib==3.5.1
+numpy==1.22.3
+scikit_learn==1.0.2
+termcolor==1.1.0
+torch==1.11.0+cu113
+torchvision==0.12.0+cu113
+transformers==4.25.1
