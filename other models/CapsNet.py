@@ -9,8 +9,8 @@ import pickle
 import torch.nn.functional as F
 from termcolor import colored
 from Biometric_extraction import featureGenera
-from Sub_unit import CBAMBlock
-from Sub_unit import Res_Net,Capsule,squash
+from utils import CBAMBlock
+from utils import Res_Net,Capsule,squash
 from Data_preprocessing import genData2EqlTensor,Numseq2OneHot,genData
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

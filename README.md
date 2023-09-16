@@ -16,11 +16,15 @@ Peptide detectability measures the relationship between the protein composition 
 |-----------|------------|
 |data       |Raw data used in this study |
 |other models |PepFormer and CapsNet |
-|Model.py|Other algorithms involved in this study |
+|ESM2 | Protein Pretraining Language Model ESM-2 |
+|Model.py|DeepPD and Other algorithms involved in this study |
 |Biometric_extraction.py |Biometric features used by CapsNet and PD_BertEDL |
 |Data_preprocessing.py |Data pre-processing |
-|main.py |DeepPD model |
-|Sub_unit.py |Some necessary component units |
+|config.py |DeepPD configuration file |
+|main.py |Training Script|
+|utils.py & utils_etfc.py |Some necessary component units |
+|predictor.py |Inference script |
+|evaluation.py |evaluating indicator |
 
 ## Citation
 Not available at the moment.
