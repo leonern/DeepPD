@@ -12,7 +12,7 @@ from LossFunction import *
 from config import ArgsConfig
 from torch.optim import lr_scheduler
 from evaluation import evaluating_indicator
-from plot import plot
+# from plot import plot
 from torch.utils.tensorboard import SummaryWriter
 
 args = ArgsConfig()
