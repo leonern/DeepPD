@@ -23,7 +23,7 @@ Peptide detectability measures the relationship between the protein composition 
 |config.py |DeepPD configuration file |
 |main.py |Training Script|
 |utils.py & utils_etfc.py |Some necessary component units |
-|predictor.py |Inference script |
+|predictor.py |Inference script |   
 |evaluation.py |evaluating indicator |
 
 ## Citation
